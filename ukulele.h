@@ -8,10 +8,13 @@
 
 class Ukulele {
     private:
+/*
         struct UkeString {
             char    name;
             Note    notes[MAX_FRET+1];
         } strings[4];
+*/
+        Note    notes[4][MAX_FRET+1];
 //        Chord *current_chord;
 
     public:
